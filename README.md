@@ -59,6 +59,6 @@ This project can be customized by modifying the components and styles in the `sr
 
 - Divyansh Agarwal
 - Email: a.divyansh.25@gmail.com
-- Resume: [Divyansh-Agarwal-Software-Development-Resume.pdf](https://github.com/nikkuAg/small-business-growth-video/files/13300841/Divyansh-Agarwal-Software-Development-Resume.pdf)
+- [Resume](https://github.com/nikkuAg/small-business-growth-video/files/13300841/Divyansh-Agarwal-Software-Development-Resume.pdf)
 
 
