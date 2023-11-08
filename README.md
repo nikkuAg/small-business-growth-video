@@ -2,6 +2,11 @@
 
 A 3-second animated video that provides insights on how to grow a small business.
 
+## Video
+https://github.com/nikkuAg/small-business-growth-video/assets/77184239/ca9bf75e-c8cc-40c2-ab4d-6166e0f64c67
+
+
+
 ## Project Structure
 
 - `src/`: Main source code for the project.
@@ -54,4 +59,6 @@ This project can be customized by modifying the components and styles in the `sr
 
 - Divyansh Agarwal
 - Email: a.divyansh.25@gmail.com
-- GitHub: @nikkuAg
+- Resume: [Divyansh-Agarwal-Software-Development-Resume.pdf](https://github.com/nikkuAg/small-business-growth-video/files/13300841/Divyansh-Agarwal-Software-Development-Resume.pdf)
+
+
