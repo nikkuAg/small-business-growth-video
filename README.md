@@ -1,54 +1,57 @@
-# Remotion video
+# Small Business Growth Video
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A 3-second animated video that provides insights on how to grow a small business.
 
-Welcome to your Remotion project!
+## Project Structure
 
-## Commands
+- `src/`: Main source code for the project.
+- `GrowBusiness/`: React components used in the project.
+- `GrowBusiness/assets/`: Contains video assets.
+- `css/`: CSS styles for components.
+- `node_modules/`: Dependencies for the project.
+- `package.json`: Project configuration and dependencies.
+- `README.md`: You're here!
 
-**Install Dependencies**
+## Technologies Used
 
-```console
-npm i
-```
+- [React](https://reactjs.org/)
+- [Remotion](https://remotion.dev/)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [@mui/material](https://mui.com/)
 
-**Start Preview**
+## Installation
 
-```console
-npm start
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nikkuAg/small-business-growth-video.git
+   ```
+2. Navigate to project directory
+   ```bash
+   cd small-business-growth-video
+   ```
+3. Install project dependencies
+   ```bash
+    npm install
+   ```
+4. Run the project
+   ```bash
+   npm start
+   ```
 
-**Render video**
+## Usage
 
-```console
+To render the video, use the following command:
+
+```bash
 npm run build
 ```
 
-**Upgrade Remotion**
+## Customization
 
-```console
-npm run upgrade
-```
+This project can be customized by modifying the components and styles in the `src/` directory.
 
-## Docs
+## Author
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/JonnyBurger/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/JonnyBurger/remotion/blob/main/LICENSE.md).
+- Divyansh Agarwal
+- Email: a.divyansh.25@gmail.com
+- GitHub: @nikkuAg
