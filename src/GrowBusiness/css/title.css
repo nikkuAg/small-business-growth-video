@@ -1,0 +1,16 @@
+.title {
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	margin: 4rem 1rem;
+	font-weight: 600;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	height: fit-content;
+	justify-content: center;
+}
+
+.word {
+	margin: 0.2rem 0.5rem;
+}

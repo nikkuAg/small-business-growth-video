@@ -1,6 +1,8 @@
 import {Composition} from 'remotion';
 import {HelloWorld} from './HelloWorld';
 import {Logo} from './HelloWorld/Logo';
+import {GrowBuisness} from './GrowBusiness';
+import {Title} from './GrowBusiness/title';
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -21,6 +23,25 @@ export const RemotionRoot = () => {
 				defaultProps={{
 					titleText: 'Welcome to Remotion',
 					titleColor: 'black',
+				}}
+			/>
+			<Composition
+				id="GrowBusiness"
+				component={GrowBuisness}
+				durationInFrames={90}
+				fps={30}
+				width={540}
+				height={960}
+			/>
+			<Composition
+				id="Title"
+				component={Title}
+				durationInFrames={90}
+				fps={30}
+				width={540}
+				height={960}
+				defaultProps={{
+					title: 'HOW TO GROW SMALL BUSINESS',
 				}}
 			/>
 			{/* Mount any React component to make it show up in the sidebar and work on it individually! */}
