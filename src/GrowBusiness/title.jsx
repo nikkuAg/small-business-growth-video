@@ -10,6 +10,7 @@ export const Title = ({title}) => {
 	const wordAnimations = words.map((_, index) => {
 		const wordFrame = frame - index * 3; // Delay between words
 		const translateY = spring({
+			// Animation in Y direction
 			from: -50,
 			to: 0,
 			frame: wordFrame,
@@ -17,9 +18,10 @@ export const Title = ({title}) => {
 		});
 
 		const opacity = spring({
+			// Animation for entry effect
 			from: 0,
 			to: 1,
-			frame: wordFrame - index * 2,
+			frame: wordFrame - index * 2, // Extra delay for drop in animation
 			fps,
 		});
 

@@ -1,0 +1,36 @@
+.container {
+	position: absolute;
+	width: 100%;
+	height: 85%;
+	top: 143px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 1.5rem 2rem;
+}
+.card {
+	border-radius: 15px !important;
+	background-color: #7575754e !important;
+	padding: 0.75rem 0.5rem;
+	max-height: 11rem;
+}
+.card-content {
+	display: flex;
+	font-size: 1.3rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem !important;
+}
+.icon {
+	margin-right: 0.75rem;
+	width: 5rem;
+	height: fit-content;
+	color: black;
+}
+.content {
+	color: white;
+	font-weight: 100;
+	font-size: 1.3rem !important;
+	max-height: 10rem;
+	overflow: hidden;
+}
