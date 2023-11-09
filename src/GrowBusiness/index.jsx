@@ -11,10 +11,21 @@ export const GrowBuisness = () => {
 				<AbsoluteFill>
 					<Background />
 				</AbsoluteFill>
-				<Sequence from={0} style={{justifyContent: 'center'}}>
+				<Sequence
+					from={0}
+					style={{
+						justifyContent: 'center',
+						margin: '4rem',
+						width: 'auto',
+						height: 'auto',
+					}}
+				>
 					<Title title="HOW TO GROW SMALL BUSINESS" />
 				</Sequence>
-				<Sequence from={20}>
+				<Sequence
+					from={20}
+					style={{margin: '4rem', width: 'auto', height: 'auto'}}
+				>
 					<CardContainer />
 				</Sequence>
 			</AbsoluteFill>

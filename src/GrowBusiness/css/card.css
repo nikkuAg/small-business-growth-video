@@ -1,10 +1,10 @@
 .container {
 	position: absolute;
 	width: 100%;
-	height: 85%;
-	top: 143px;
+	height: 80%;
+	top: 350px;
 	display: flex;
-	justify-content: space-around;
+	gap: 3.5rem;
 	flex-direction: column;
 	padding: 1.5rem 2rem;
 }
@@ -12,25 +12,27 @@
 	border-radius: 15px !important;
 	background-color: #7575754e !important;
 	padding: 0.75rem 0.5rem;
-	max-height: 11rem;
+	max-height: 20rem;
 }
 .card-content {
 	display: flex;
-	font-size: 1.3rem;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem !important;
 }
 .icon {
-	margin-right: 0.75rem;
-	width: 5rem;
+	width: 7rem;
 	height: fit-content;
 	color: black;
+	background-color: white;
+	border-radius: 50%;
+	margin: auto 0.5rem !important;
 }
 .content {
 	color: white;
 	font-weight: 100;
-	font-size: 1.3rem !important;
-	max-height: 10rem;
+	font-size: 2.2rem !important;
+	margin: auto 2rem !important;
+	max-height: 19rem;
 	overflow: hidden;
 }

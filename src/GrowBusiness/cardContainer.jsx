@@ -1,5 +1,5 @@
 import React from 'react';
-import {AiFillCheckCircle} from 'react-icons/ai';
+import {BsFillCheckCircleFill} from 'react-icons/bs';
 import './css/card.css';
 import {Box, Card, CardContent, Typography} from '@mui/material';
 import {spring, useCurrentFrame, useVideoConfig} from 'remotion';
@@ -58,7 +58,7 @@ export const CardContainer = () => {
 					}}
 				>
 					<CardContent className="card-content">
-						<AiFillCheckCircle
+						<BsFillCheckCircleFill
 							className="icon"
 							style={{
 								transform: `translateX(${cardAnimations[index].translateXIcon}px)`,

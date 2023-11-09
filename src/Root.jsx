@@ -13,16 +13,16 @@ export const RemotionRoot = () => {
 				component={GrowBuisness}
 				durationInFrames={140}
 				fps={30}
-				width={540}
-				height={960}
+				width={1080}
+				height={1920}
 			/>
 			<Composition
 				id="Title"
 				component={Title}
 				durationInFrames={90}
 				fps={30}
-				width={540}
-				height={960}
+				width={1080}
+				height={1920}
 				defaultProps={{
 					title: 'HOW TO GROW SMALL BUSINESS',
 				}}
@@ -32,8 +32,8 @@ export const RemotionRoot = () => {
 				component={CardContainer}
 				durationInFrames={90}
 				fps={30}
-				width={540}
-				height={960}
+				width={1080}
+				height={1920}
 			/>
 		</>
 	);
