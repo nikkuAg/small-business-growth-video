@@ -3,11 +3,8 @@
 A 3-second animated video that provides insights on how to grow a small business.
 
 ## Video
-https://github.com/nikkuAg/small-business-growth-video/assets/77184239/79abfac4-d4ce-4281-a302-c439a29193a1
 
-
-
-
+https://github.com/nikkuAg/small-business-growth-video/assets/77184239/e11306c4-7b0e-4628-a628-9a19ce37a52c
 
 ## Project Structure
 
